@@ -1,0 +1,25 @@
+.section{
+    display: flex;
+    box-sizing: border-box;
+    .target{
+        display: block;
+        width: 30%;
+        margin:1%;
+        padding: 1%;
+        border-radius:5%;
+        background-color:#ccc;
+        .image{
+            padding: 2%;
+            img{
+                border-radius:10px;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .txt{
+            background-color:white;
+            padding:10px;
+        }
+    }
+}
+

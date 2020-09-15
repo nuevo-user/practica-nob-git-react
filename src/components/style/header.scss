@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    padding: 1%;
+    background-color: #73C371;
+    text-align: center;
+}
+@media only screen and(max-width: 768px){
+    .header{
+        height: 100px;
+    }
+}
